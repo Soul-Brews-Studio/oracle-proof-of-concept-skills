@@ -95,6 +95,21 @@ Please transcribe this YouTube video. Include:
 Video: [YOUTUBE_URL]
 ```
 
+**For AI-to-AI transfer (full verbatim - RECOMMENDED):**
+```
+Please provide the FULL verbatim transcript of this video with timestamps.
+Do NOT summarize - I need the complete text for another AI to analyze.
+
+Video: [YOUTUBE_URL]
+
+Format:
+[00:00] exact words spoken
+[00:15] next section exact words
+...
+```
+
+> **Tip**: Use full verbatim when giving transcript to Claude - let Claude do its own analysis instead of double-summarization.
+
 ### Step 4: Submit and Wait for Response
 
 **IMPORTANT**: Use `read_page` + `ref` clicks, NOT coordinates!
@@ -147,7 +162,7 @@ oracle_learn({
 ## 🎬 Video Learned: [TITLE]
 
 **Source**: [YOUTUBE_URL]
-**Slug**: [SLUG]
+**Gemini**: [GEMINI_CONVERSATION_URL]
 
 ### Key Takeaways
 [From Gemini response]
@@ -159,6 +174,24 @@ oracle_learn({
 ### Quick Access
 `/trace [SLUG]` or `oracle_search("[TITLE]")`
 ```
+
+## IMPORTANT: Save Gemini Conversation Link
+
+**Always save the Gemini conversation URL** in the learning file frontmatter:
+
+```yaml
+---
+title: [Video Title]
+source: YouTube - [Creator] (youtube_url)
+gemini_conversation: https://gemini.google.com/app/[conversation_id]
+---
+```
+
+**Why**:
+- Conversations persist and are revisitable
+- Can continue asking follow-up questions later
+- Provides audit trail of transcription source
+- URL visible in browser after sending request
 
 ## Notes
 
