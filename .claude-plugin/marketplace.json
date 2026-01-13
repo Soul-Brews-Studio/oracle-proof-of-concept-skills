@@ -1,0 +1,17 @@
+{
+  "name": "oracle-skills",
+  "version": "1.0.0",
+  "owner": {
+    "name": "Nat"
+  },
+  "metadata": {
+    "description": "The 12 skills that survived The Great Archive Migration. Born from 79 commands → 0 → 12 essential tools."
+  },
+  "plugins": [
+    {
+      "name": "oracle-skills",
+      "source": "./",
+      "description": "12 essential Claude Code skills: trace, recap, rrr, learn, project, where-we-are, forward, context-finder, feel, fyi, standup, schedule"
+    }
+  ]
+}

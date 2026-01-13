@@ -30,12 +30,25 @@ Read the full journey: [docs/journey/THE-GREAT-ARCHIVE.md](docs/journey/THE-GREA
 | `/fyi` | Info logging | Logging |
 | `/standup` | Daily check | Routine |
 | `/schedule` | Calendar integration | Planning |
+| `/watch` | Learn from YouTube via Gemini | Learning |
 
 ---
 
 ## Installation
 
-### Option 1: Copy skills directly
+### Option 1: As Claude Code Plugin (Recommended)
+
+```bash
+# Add marketplace
+/plugin marketplace add laris-co/oracle-proof-of-concept-skills
+
+# Install plugin
+/plugin install oracle-skills@laris-co/oracle-proof-of-concept-skills
+```
+
+Skills become available immediately after restart.
+
+### Option 2: Copy skills directly
 
 ```bash
 # Clone this repo
@@ -45,10 +58,10 @@ git clone https://github.com/laris-co/oracle-proof-of-concept-skills.git
 cp -r oracle-proof-of-concept-skills/skills/* your-project/.claude/skills/
 ```
 
-### Option 2: Via nat-agents-core plugin
+### Option 3: Via nat-agents-core plugin
 
 ```bash
-# Install plugin
+# Install plugin (includes agents + commands too)
 /plugin marketplace add laris-co/nat-agents-core
 /plugin install nat-agents-core@laris-co/nat-agents-core
 

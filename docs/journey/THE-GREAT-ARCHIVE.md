@@ -152,7 +152,7 @@ You'll be surprised what survives.
 
 | Date | Event |
 |------|-------|
-| May 2025 | Oracle philosophy created |
+| May 2025 | Oracle philosophy created (inherited from beginner → oracle) |
 | Dec 2025 | 79+ commands accumulated |
 | Jan 10, 2026 | Skill structure trap (10 min debugging) |
 | Jan 11, 2026 | **THE GREAT PURGE** — 79 → 0 → 12 |
