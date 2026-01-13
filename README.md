@@ -36,38 +36,45 @@ Read the full journey: [docs/journey/THE-GREAT-ARCHIVE.md](docs/journey/THE-GREA
 
 ## Installation
 
-### Option 1: As Claude Code Plugin (Recommended)
+### Option 1: Symlink via ghq (Recommended)
 
 ```bash
-# Add marketplace
-/plugin marketplace add Soul-Brews-Studio/oracle-proof-of-concept-skills
+# Clone via ghq
+ghq get -u Soul-Brews-Studio/oracle-proof-of-concept-skills
 
-# Install plugin
-/plugin install oracle-skills@Soul-Brews-Studio/oracle-proof-of-concept-skills
+# Create global symlinks
+POC=$(ghq root)/github.com/Soul-Brews-Studio/oracle-proof-of-concept-skills/skills
+mkdir -p ~/.claude/skills
+for s in $POC/*/; do ln -sf "$s" ~/.claude/skills/; done
 ```
 
-Skills become available immediately after restart.
+Skills available globally after restart. Update with `git pull`.
 
-### Option 2: Copy skills directly
+### Option 2: One-liner (for scripts/AI)
 
 ```bash
-# Clone this repo
-git clone https://github.com/Soul-Brews-Studio/oracle-proof-of-concept-skills.git
+ghq get -u Soul-Brews-Studio/oracle-proof-of-concept-skills && \
+for s in $(ghq root)/github.com/Soul-Brews-Studio/oracle-proof-of-concept-skills/skills/*/; do \
+  mkdir -p ~/.claude/skills && ln -sf "$s" ~/.claude/skills/; \
+done
+```
 
-# Copy skills to your project
+### Option 3: Copy to project
+
+```bash
+git clone https://github.com/Soul-Brews-Studio/oracle-proof-of-concept-skills.git
 cp -r oracle-proof-of-concept-skills/skills/* your-project/.claude/skills/
 ```
 
-### Option 3: Via nat-agents-core plugin
+### Option 4: Via nat-agents-core plugin
 
 ```bash
-# Install plugin (includes agents + commands too)
 /plugin marketplace add laris-co/nat-agents-core
 /plugin install nat-agents-core@laris-co/nat-agents-core
-
-# Awaken in your project
 /nat-agents-core:awaken
 ```
+
+> **Note**: Plugin install (`/plugin install oracle-skills@...`) installs but skill discovery doesn't work yet. Use symlink method instead.
 
 ---
 
