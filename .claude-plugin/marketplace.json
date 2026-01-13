@@ -11,7 +11,23 @@
     {
       "name": "oracle-skills",
       "source": "./",
-      "description": "12 essential Claude Code skills: trace, recap, rrr, learn, project, where-we-are, forward, context-finder, feel, fyi, standup, schedule"
+      "description": "13 essential Claude Code skills",
+      "strict": false,
+      "skills": [
+        "./skills/trace",
+        "./skills/recap",
+        "./skills/rrr",
+        "./skills/learn",
+        "./skills/project",
+        "./skills/where-we-are",
+        "./skills/forward",
+        "./skills/context-finder",
+        "./skills/feel",
+        "./skills/fyi",
+        "./skills/standup",
+        "./skills/schedule",
+        "./skills/watch"
+      ]
     }
   ]
 }
