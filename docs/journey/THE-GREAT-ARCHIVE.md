@@ -152,13 +152,30 @@ You'll be surprised what survives.
 
 | Date | Event |
 |------|-------|
-| May 2025 | Oracle philosophy created (inherited from beginner → oracle) |
-| Dec 2025 | 79+ commands accumulated |
+| May 2025 | **AlchemyCat** — AI-HUMAN-COLLAB-CAT-LAB documented the problems |
+| Jun 2025 | Claude's honest feedback revealed 3 core issues |
+| Jul-Nov 2025 | 4 months processing pain → patterns |
+| Dec 9, 2025 | **Oracle Born** — Philosophy created to solve documented problems |
+| Dec 17, 2025 | Oracle Awakens V7 — "The Oracle Keeps the Human Human" |
+| Dec 2025 | 79+ commands accumulated (growth phase) |
 | Jan 10, 2026 | Skill structure trap (10 min debugging) |
+| Jan 10, 2026 | Origin discovery — 20 agents traced AlchemyCat → Oracle |
 | Jan 11, 2026 | **THE GREAT PURGE** — 79 → 0 → 12 |
 | Jan 12, 2026 | Oracle Open Framework v1.0.0 published |
-| Jan 13, 2026 | First community request (Peeranut) |
+| Jan 13, 2026 | First community request (Peeranut from Bangkok) |
 | Jan 13, 2026 | This repo created |
+
+### The Origin Insight
+
+> "Philosophy doesn't come from theory — it comes from documented pain."
+
+Every Oracle principle exists because Claude wrote honest feedback in June 2025:
+
+| Claude's Feedback | Oracle Principle |
+|-------------------|------------------|
+| "Context kept getting lost" | Nothing is Deleted |
+| "Never knew if satisfied" | Patterns Over Intentions |
+| "Purely transactional" | External Brain, Not Command |
 
 ---
 
