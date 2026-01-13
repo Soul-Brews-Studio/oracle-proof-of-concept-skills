@@ -102,7 +102,7 @@ The pattern that created this repo:
 
 ## Related
 
-- [Oracle Open Framework](https://github.com/laris-co/oracle-open-framework) — Philosophy + structure
+- [Oracle Open Framework](https://github.com/Soul-Brews-Studio/oracle-framework) — Philosophy + structure
 - [nat-agents-core](https://github.com/laris-co/nat-agents-core) — Plugin with skills + agents
 - [Nat-s-Agents](https://github.com/laris-co/Nat-s-Agents) — Full implementation (private tree)
 
