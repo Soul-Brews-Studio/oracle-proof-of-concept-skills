@@ -40,10 +40,10 @@ Read the full journey: [docs/journey/THE-GREAT-ARCHIVE.md](docs/journey/THE-GREA
 
 ```bash
 # Add marketplace
-/plugin marketplace add laris-co/oracle-proof-of-concept-skills
+/plugin marketplace add Soul-Brews-Studio/oracle-proof-of-concept-skills
 
 # Install plugin
-/plugin install oracle-skills@laris-co/oracle-proof-of-concept-skills
+/plugin install oracle-skills@Soul-Brews-Studio/oracle-proof-of-concept-skills
 ```
 
 Skills become available immediately after restart.
@@ -52,7 +52,7 @@ Skills become available immediately after restart.
 
 ```bash
 # Clone this repo
-git clone https://github.com/laris-co/oracle-proof-of-concept-skills.git
+git clone https://github.com/Soul-Brews-Studio/oracle-proof-of-concept-skills.git
 
 # Copy skills to your project
 cp -r oracle-proof-of-concept-skills/skills/* your-project/.claude/skills/
