@@ -1,12 +1,12 @@
 {
   "name": "oracle-skills",
-  "version": "1.0.0",
-  "description": "The 12 skills that survived The Great Archive Migration - practical Claude Code tools",
+  "version": "1.0.1",
+  "description": "The 13 skills that survived The Great Archive Migration - practical Claude Code tools",
   "author": {
     "name": "Nat",
-    "url": "https://github.com/laris-co"
+    "url": "https://github.com/Soul-Brews-Studio"
   },
-  "repository": "https://github.com/laris-co/oracle-proof-of-concept-skills",
+  "repository": "https://github.com/Soul-Brews-Studio/oracle-proof-of-concept-skills",
   "license": "MIT",
   "keywords": ["skills", "oracle", "workflow", "productivity", "claude-code"]
 }
